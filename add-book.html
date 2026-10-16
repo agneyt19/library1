@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Book - Library Management</title>
+</head>
+<body bgcolor="#dff9fb">
+<table align="right" bgcolor="#2c3e50" cellpadding="6" cellspacing="0">
+  <tr>
+    <td>
+      <font size="2">
+      <a href="login.html"><font color="#ff7675"><b>Login</b></font></a>
+      &nbsp;|&nbsp;
+      <a href="signup.html"><font color="#55efc4"><b>Sign Up</b></font></a>
+      &nbsp;|&nbsp;
+      <a href="add-book.html"><font color="#74b9ff"><b>Add Book</b></font></a>
+      &nbsp;|&nbsp;
+      <a href="view-books.html"><font color="#fdcb6e"><b>View Books</b></font></a>
+      </font>
+    </td>
+  </tr>
+</table>
+<br clear="all">
+<center>
+<h1><font color="#6c5ce7">Add Book</font></h1>
+<form action="view-books.html">
+  <table bgcolor="#e8daef" border="2" bordercolor="#6c5ce7" cellpadding="10" cellspacing="0">
+    <tr>
+      <td bgcolor="#d2b4de"><b>Book Title</b></td>
+      <td><input type="text" size="30" required></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Author</b></td>
+      <td><input type="text" size="30" required></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>ISBN</b></td>
+      <td><input type="text" size="30" required></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Category</b></td>
+      <td>
+        <select>
+          <option>Fiction</option>
+          <option>Non-Fiction</option>
+          <option>Science</option>
+          <option>History</option>
+          <option>Technology</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Publisher</b></td>
+      <td><input type="text" size="30"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Year Published</b></td>
+      <td><input type="text" size="30"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Number of Copies</b></td>
+      <td><input type="text" value="1" size="30" required></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Cover Image</b></td>
+      <td><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#d2b4de"><b>Description</b></td>
+      <td><textarea rows="4" cols="30"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" bgcolor="#d2b4de">
+        <button type="submit">Add Book</button>
+        <button type="reset">Reset</button>
+      </td>
+    </tr>
+  </table>
+</form>
+</center>
+</body>
+</html>

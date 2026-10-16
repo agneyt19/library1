@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>View Books - Library Management</title>
+</head>
+<body bgcolor="#dff9fb">
+<table align="right" bgcolor="#2c3e50" cellpadding="6" cellspacing="0">
+  <tr>
+    <td>
+      <font size="2">
+      <a href="login.html"><font color="#ff7675"><b>Login</b></font></a>
+      &nbsp;|&nbsp;
+      <a href="signup.html"><font color="#55efc4"><b>Sign Up</b></font></a>
+      &nbsp;|&nbsp;
+      <a href="add-book.html"><font color="#74b9ff"><b>Add Book</b></font></a>
+      &nbsp;|&nbsp;
+      <a href="view-books.html"><font color="#fdcb6e"><b>View Books</b></font></a>
+      </font>
+    </td>
+  </tr>
+</table>
+<br clear="all">
+<center>
+<h1><font color="#0984e3">View Books</font></h1>
+<form action="view-books.html" method="get">
+  <input type="search" placeholder="Search by title, author or ISBN" size="40">
+  <button type="submit">Search</button>
+</form>
+<br>
+<table align="center" border="2" bordercolor="#0984e3" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr bgcolor="#0984e3">
+      <th><font color="#ffffff">#</font></th>
+      <th><font color="#ffffff">Cover</font></th>
+      <th><font color="#ffffff">Title</font></th>
+      <th><font color="#ffffff">Author</font></th>
+      <th><font color="#ffffff">ISBN</font></th>
+      <th><font color="#ffffff">Category</font></th>
+      <th><font color="#ffffff">Year</font></th>
+      <th><font color="#ffffff">Copies</font></th>
+      <th><font color="#ffffff">Status</font></th>
+      <th><font color="#ffffff">Actions</font></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr bgcolor="#ffeaa7">
+      <td>1</td>
+      <td><img src="tokill.png" alt="Book cover" width="80" height="110"></td>
+      <td><b>To Kill a Mockingbird</b></td><td>Harper Lee</td><td>978-0061120084</td><td>Fiction</td><td>1960</td><td>3</td>
+      <td><font color="#00b894"><b>Available</b></font></td>
+      <td><a href="#">Edit</a> | <a href="#"><font color="#d63031">Delete</font></a></td>
+    </tr>
+    <tr bgcolor="#fab1a0">
+      <td>2</td>
+      <td><img src="abrief.png" alt="Book cover" width="80" height="110"></td>
+      <td><b>A Brief History of Time</b></td><td>Stephen Hawking</td><td>978-0553380163</td><td>Science</td><td>1988</td><td>2</td>
+      <td><font color="#00b894"><b>Available</b></font></td>
+      <td><a href="#">Edit</a> | <a href="#"><font color="#d63031">Delete</font></a></td>
+    </tr>
+    <tr bgcolor="#a29bfe">
+      <td>3</td>
+      <td><img src="cleancode.png" alt="Book cover" width="80" height="110"></td>
+      <td><b>Clean Code</b></td><td>Robert C. Martin</td><td>978-0132350884</td><td>Technology</td><td>2008</td><td>0</td>
+      <td><font color="#d63031"><b>Issued</b></font></td>
+      <td><a href="#">Edit</a> | <a href="#"><font color="#d63031">Delete</font></a></td>
+    </tr>
+    <tr bgcolor="#81ecec">
+      <td>4</td>
+      <td><img src="sapiens.png" alt="Book cover" width="80" height="110"></td>
+      <td><b>Sapiens</b></td><td>Yuval Noah Harari</td><td>978-0062316097</td><td>History</td><td>2015</td><td>4</td>
+      <td><font color="#00b894"><b>Available</b></font></td>
+      <td><a href="#">Edit</a> | <a href="#"><font color="#d63031">Delete</font></a></td>
+    </tr>
+  </tbody>
+</table>
+<p><a href="add-book.html"><font color="#e17055"><b>+ Add a new book</b></font></a></p>
+</center>
+</body>
+</html>
